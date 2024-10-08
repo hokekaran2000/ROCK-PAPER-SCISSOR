@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="Images/rock.jpg" style="border: #f40dfc solid 2px;">
+            <p class="img-p" style="color: #f40dfc;">ROCK</p>
+        </div>
+        <div class="choice" id="paper">
+            <img src="Images/paper.jpg" style="border: #0db0fc solid 2px;">
+            <p class="img-p" style="color: #0db0fc;">PAPER</p>
+        </div>
+        <div class="choice" id="scissors">
+            <img src="Images/scissors.jpg" style="border: #f8fc0d solid 2px;">
+            <p class="img-p" style="color: #f8fc0d;">SCISSOR</p>
+        </div>
+    </div>
+
+    <div class="score-board">
+        <div class="score">
+            <p>YOU</p>
+            <p id="user-score" style="color: rgb(47, 249, 47)">0</p>
+        </div>
+        <div class="score">
+            <p>COMP</p>
+            <p id="comp-score" style="color: red">0</p>
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">Play Your Move</p>
+    </div>
+
+    <p id="msg-beats"></p>
+
+    <script src="app.js"></script>
+</body>
+</html>
